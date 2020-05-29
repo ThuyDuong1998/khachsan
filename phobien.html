@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phổ biến</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!--head-->
+	<div class="head">
+	    <div class="logo">
+	      <img src="img\logo.png">
+	    </div>
+	    <div class="text">
+	      <div class="tv">
+	        <img src="img\tv.png">
+	        <p>Tiếng Việt</p>
+	      </div>
+	      <div class="login">
+	        <p>Đăng ký / Đăng Nhập</p>
+	      </div>
+	    </div>
+  	</div>
+	<!--menu-->
+	<div class="menu">
+		<div class="topnav" id="myTopnav">
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+			<a href="#">Liên hệ</a>
+			<a href="#">Khuyến mại</a>
+	  		<a href="#">Tin tức</a>
+	  		<a href="#">Giới thiệu</a>
+	  		<a href="#">Trang chủ</a>	
+		</div>
+
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+			    x.className += " responsive";
+			  } else {
+			    x.className = "topnav";
+			  }
+			}
+		</script>
+	</div>
+	<!--Chuoi khach san lon nhat VN-->
+	<div class="fluid" style="background-color: #D5FEFF;">
+	    <div class="container">
+	      	<div class="row" style="margin-left: 0px; margin-right: 0px;">
+		        <p style="text-align: center;font-size: 40px;font-family: Arial;padding-top: 20px;width: 100%;">Chuỗi khách sạn lớn nhất Việt Nam</p>
+		        <div class="col-xl-4 timkiem">
+		            <p>Tìm khách sạn thành phố...<img src="img\timkiem.png" style="width: 30px;"></p>
+		        </div>
+		        <div class="col-xl-4 timkiem">
+		          	<div class="lich">
+		            	<img src="img\lich.png" style="width: 30px;">
+		            	<p>Nhận phòng - Trả phòng</p>
+		          	</div>
+		        </div>
+		        <div class="col-xl-3 timkiem">
+		          	<div class="lich">
+		            	<img src="img\icon3.png" style="width: 30px;">
+		            	<p>1 phòng - 1 khách</p>
+		          	</div>
+		        </div>
+		        <div class="col-xl-1 search" style="padding-left: 0px;padding-right: 0px;">
+		          	<button style="width: 100%;height: 68px;background-color: #1FA2C4;">Tìm kiếm</button>
+		        </div>
+	        </div>
+	    </div>
+	</div>
+	<div class="phai" style="width: 100%;">
+		<div class="row" style="width: 100%; margin-left: 0px;margin-right: 0px;margin-top: 20px;">
+			<div class="col-xl-3" style="padding: 0px 0px 0px 0px;">
+				<div class="phobien1">
+					<p style="font-size: 17px;">Có tất cả <b>000 khách sạn</b></p>
+					<p>Lọc tất cả khách sạn theo</p>
+					<input type="text" placeholder="Tên khách sạn, tiêu chí....">
+				</div>
+				<div class="phobien2">
+					<p>Theo mức giá</p>
+					<input type="range" name="" min="3" max="10">
+					<div class="check">
+						<input type="checkbox"><span>Ưu đãi đặc biệt</span><br>
+						<input type="checkbox"><span>Khuyến mại</span><br>
+						<input type="checkbox"><span>Đặt sớm giá tốt</span><br>
+					</div>
+				</div>
+				<div class="phobien3">
+					<p>Hạng sao</p>
+					<input type="checkbox">
+					<!-- hang1 -->
+					<img src="img\sao.png" style="width: 15px;"><br>
+					<input type="checkbox">
+					<!-- hang2 -->
+					<img src="img\sao.png" style="width: 15px;">
+					<img src="img\sao.png" style="width: 15px;"><br>
+					<!-- hang3 -->
+					<input type="checkbox">
+					<img src="img\sao.png" style="width: 15px;">
+					<img src="img\sao.png" style="width: 15px;">
+					<img src="img\sao.png" style="width: 15px;"><br>
+					<!-- hang4 -->
+					<input type="checkbox">
+					<img src="img\sao.png" style="width: 15px;">
+					<img src="img\sao.png" style="width: 15px;">
+					<img src="img\sao.png" style="width: 15px;">
+					<img src="img\sao.png" style="width: 15px;"><br>
+					<!-- hang5 -->
+					<input type="checkbox" checked>
+					<img src="img\sao.png" style="width: 15px;">
+					<img src="img\sao.png" style="width: 15px;">
+					<img src="img\sao.png" style="width: 15px;">
+					<img src="img\sao.png" style="width: 15px;">
+					<img src="img\sao.png" style="width: 15px;">
+				</div>
+				<div class="phobien4">
+					<p>Loại hình</p>
+					<input type="radio" name="loaihinh" checked><span>Tất cả</span><br>
+					<input type="radio" name="loaihinh"><span>Khách sạn</span><br>
+					<input type="radio" name="loaihinh"><span>Resport</span><br>
+					<input type="radio" name="loaihinh"><span>Homestay</span><br>
+					<input type="radio" name="loaihinh"><span>Căn hộ</span><br>
+					<input type="radio" name="loaihinh"><span>Biệt thự</span><br>
+					<input type="radio" name="loaihinh"><span>Khác</span><br>
+				</div>
+				<div class="phobien4">
+					<p>Tiện ích</p>
+					<input type="radio" name="tienich" ><span>Free bữa sáng</span><br>
+					<input type="radio" name="tienich"><span>Thêm đồ uống</span><br>
+					<input type="radio" name="tienich" checked><span>Free đồ ăn nhẹ</span><br>
+				</div>
+				<div class="phobien4" style="border: 1px solid grey;">
+					<p>Khu vực</p>
+					<input type="radio" name="khuvuc" checked><span>Tất cả khu vực</span><br>
+					<input type="radio" name="khuvuc"><span>Khu vực A</span><br>
+					<input type="radio" name="khuvuc"><span>Khu vực B</span><br>
+					<input type="radio" name="khuvuc"><span>Khu vực C</span><br>
+				</div>
+			</div>
+			<div class="col-xl-9">
+				<p style="font-size: 20px;font-weight: bold;">Phổ biến nhất | Hạng khách sạn | Đáng giá cao nhất | Giá</p>
+				<p style="font-size: 17px;font-weight: bold;">Khách sạn nổi bật</p>
+				<div class="col-xl-4">
+					<div style="border: 1px solid grey;text-align: center;">
+						<img src="img\slide1.jpg" style="width: 100%;">
+						<p style="font-size: 20px;margin-bottom: 0px;">Khách sạn A</p>
+						<img src="img\sao.png" style="width: 20px;">
+						<img src="img\sao.png" style="width: 20px;">
+						<img src="img\sao.png" style="width: 20px;">
+						<img src="img\sao.png" style="width: 20px;">
+						<img src="img\sao.png" style="width: 20px;">
+						<p>Giá: 000.000Đ</p>
+					</div>
+				</div>
+				<div class="col-xl-4">
+					<div style="border: 1px solid grey;text-align: center;">
+						<img src="img\slide2.jpg" style="width: 100%;">
+						<p style="font-size: 20px;margin-bottom: 0px;">Khách sạn A</p>
+						<img src="img\sao.png" style="width: 20px;">
+						<img src="img\sao.png" style="width: 20px;">
+						<img src="img\sao.png" style="width: 20px;">
+						<img src="img\sao.png" style="width: 20px;">
+						<img src="img\sao.png" style="width: 20px;">
+						<p>Giá: 000.000Đ</p>
+					</div>
+				</div>
+				<div class="col-xl-4">
+					<div style="border: 1px solid grey;text-align: center;">
+						<img src="img\slide3.jpg" style="width: 100%;">
+						<p style="font-size: 20px;margin-bottom: 0px;">Khách sạn A</p>
+						<img src="img\sao.png" style="width: 20px;">
+						<img src="img\sao.png" style="width: 20px;">
+						<img src="img\sao.png" style="width: 20px;">
+						<img src="img\sao.png" style="width: 20px;">
+						<img src="img\sao.png" style="width: 20px;">
+						<p>Giá: 000.000Đ</p>
+					</div>
+				</div>
+				<hr style="border-bottom: 1px solid grey;width: 100%;clear: both;padding-top: 15px;">
+				<!-- khách sạn Mandala Bắc Ninh 1 -->
+				<span style="font-size: 17px;font-weight: bold;padding-left: 15px;">Khách sạn Mandala Bắc Ninh</span>
+				<img src="img\sao.png" style="width: 15px;">
+				<img src="img\sao.png" style="width: 15px;">
+				<img src="img\sao.png" style="width: 15px;">
+				<img src="img\sao.png" style="width: 15px;">
+				<img src="img\sao.png" style="width: 15px;">
+				<p style="padding-left: 15px;">Đường Kinh Dương Vương, Thành phố Bắc Ninh,Việt Nam</p>
+				<div style="justify-content: space-between;align-items: center;display: flex;">
+					<div class="col-xl-6">
+						<img src="img\anh2.jpg" style="width: 100%;">
+					</div>
+					<div class="col-xl-6" style="text-align: center;">
+						<p>Loại phòng rất rộng rãi với tầm nhìn yên tĩnh trên đường phố nhộn nhịp. Công nghệ tiên tiến với mỗi phòng đều có TV LCD 49 inch và phòng tắm riêng lớn. Ánh sáng ban ngày tự nhiên, an toàn trong phòng. Tiện nghi pha trà-cà phê, minibar, Wi-fi miễn phí, điện thoại, đồng hồ báo thức. Máy sấy tóc, áo choàng tắm, thiết bị lưu trữ và dép và tiện nghi tắm tự nhiên.</p>
+						<button style="background-color: #97A6F2;color: white;width: 130px;height: 40px;border-radius: 30px;">Đặt phòng</button>
+					</div>
+				</div>
+				<!-- khách sạn Mandala Bắc Ninh 2 -->
+				<span style="font-size: 17px;font-weight: bold;padding-left: 15px;">Khách sạn Mandala Bắc Ninh</span>
+				<img src="img\sao.png" style="width: 15px;">
+				<img src="img\sao.png" style="width: 15px;">
+				<img src="img\sao.png" style="width: 15px;">
+				<img src="img\sao.png" style="width: 15px;">
+				<img src="img\sao.png" style="width: 15px;">
+				<p style="padding-left: 15px;">Đường Kinh Dương Vương, Thành phố Bắc Ninh,Việt Nam</p>
+				<div style="justify-content: space-between;align-items: center;display: flex;">
+					<div class="col-xl-6">
+						<img src="img\anh2.jpg" style="width: 100%;">
+					</div>
+					<div class="col-xl-6" style="text-align: center;">
+						<p>Loại phòng rất rộng rãi với tầm nhìn yên tĩnh trên đường phố nhộn nhịp. Công nghệ tiên tiến với mỗi phòng đều có TV LCD 49 inch và phòng tắm riêng lớn. Ánh sáng ban ngày tự nhiên, an toàn trong phòng. Tiện nghi pha trà-cà phê, minibar, Wi-fi miễn phí, điện thoại, đồng hồ báo thức. Máy sấy tóc, áo choàng tắm, thiết bị lưu trữ và dép và tiện nghi tắm tự nhiên.</p>
+						<button style="background-color: #97A6F2;color: white;width: 130px;height: 40px;border-radius: 30px;">Đặt phòng</button>
+					</div>
+				</div>
+				<!-- khách sạn Mandala Bắc Ninh 3 -->
+				<span style="font-size: 17px;font-weight: bold;padding-left: 15px;">Khách sạn Mandala Bắc Ninh</span>
+				<img src="img\sao.png" style="width: 15px;">
+				<img src="img\sao.png" style="width: 15px;">
+				<img src="img\sao.png" style="width: 15px;">
+				<img src="img\sao.png" style="width: 15px;">
+				<img src="img\sao.png" style="width: 15px;">
+				<p style="padding-left: 15px;">Đường Kinh Dương Vương, Thành phố Bắc Ninh,Việt Nam</p>
+				<div style="justify-content: space-between;align-items: center;display: flex;">
+					<div class="col-xl-6">
+						<img src="img\anh2.jpg" style="width: 100%;">
+					</div>
+					<div class="col-xl-6" style="text-align: center;">
+						<p>Loại phòng rất rộng rãi với tầm nhìn yên tĩnh trên đường phố nhộn nhịp. Công nghệ tiên tiến với mỗi phòng đều có TV LCD 49 inch và phòng tắm riêng lớn. Ánh sáng ban ngày tự nhiên, an toàn trong phòng. Tiện nghi pha trà-cà phê, minibar, Wi-fi miễn phí, điện thoại, đồng hồ báo thức. Máy sấy tóc, áo choàng tắm, thiết bị lưu trữ và dép và tiện nghi tắm tự nhiên.</p>
+						<button style="background-color: #97A6F2;color: white;width: 130px;height: 40px;border-radius: 30px;">Đặt phòng</button>
+					</div>
+				</div>
+				<div class="sotrang">
+					<ul>
+						<li style="margin-left: 10px;"><</li>
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a>...</li>
+						<li style="margin-right: 10px;">></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr style="border-top: 1px solid black; width: 100%; ">
+	<!--footer-->
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-4">
+				<div class="footer1">
+					<img src="img\logo.png">
+					<p>Mandala</p>
+				</div><br>
+				<div class="footer2">
+					<img src="img\nha.png"><br>
+					<span>Tầng 3 Grand Plaza,117 Trần Duy Hưng, <br>Trung Hòa, Cầu giấy, Hà Nội</span>
+					<img src="img\phone.png">
+					<span>(884)3577.1983</span>
+					<img src="img\email.png">
+					<span>mandala@gmail.com</span>
+				</div>
+			</div>
+			<div class="col-xl-4">
+				<p style="font-size: 20px;font-weight: bold;">Quy định chung dành cho Website</p>
+				<div class="quydinh">
+					<p>- Chính sách về quy định chung</p>
+					<p>- Quy định về thanh toán</p>
+					<p>- Chính sách về hủy đặt phòng</p>
+					<p>- Chính sách về bảo mật thông tin</p>
+				</div>
+			</div>
+			<div class="col-xl-4">
+				<p style="font-size: 20px;font-weight: bold;">Kết nối với chúng tôi</p>
+				<div class="quydinh">
+					<img src="img\fb.png">
+					<img src="img\ins.png">
+					<img src="img\youtube.png">
+					<img src="img\twitter.png">
+					<img src="img\google.png">
+				</div>
+				<div class="map">
+					<p style="font-size: 20px;font-weight: bold; float: left;margin-top: 30px;">Đến với chúng tôi</p>
+					<img src="img\map.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="cuoi">
+		<p>Copyright @2020 & Mandala</p>
+	</div>
+</body>
+</html>

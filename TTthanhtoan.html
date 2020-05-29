@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thông tin thanh toán</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="head">
+	    <div class="logo">
+	      <img src="img\logo.png">
+	    </div>
+	    <div class="text">
+	      <div class="tv">
+	        <img src="img\tv.png">
+	        <p>Tiếng Việt</p>
+	      </div>
+	      <div class="login">
+	        <p>Đăng ký / Đăng Nhập</p>
+	      </div>
+	    </div>
+  	</div>
+	<!--menu-->
+	<div class="menu">
+		<div class="topnav" id="myTopnav">
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+			<a href="#">Liên hệ</a>
+			<a href="#">Khuyến mại</a>
+	  		<a href="#">Tin tức</a>
+	  		<a href="#">Giới thiệu</a>
+	  		<a href="#">Trang chủ</a>	
+		</div>
+
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+			    x.className += " responsive";
+			  } else {
+			    x.className = "topnav";
+			  }
+			}
+		</script>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-6">
+				<p style="font-size: 17px; font-weight: bold;">Thông tin đặt phòng</p>
+				<div style="border: 1px solid grey;width: 100%; padding-left: 20px;padding-top: 15px;">
+					<div style="font-size: 17px;">
+						<p>Thanh toán bằng</p>
+						<p>Thanh toán bằng</p>
+					</div>
+					<div style="margin-top: 20px; font-size: 17px;">
+						<p>Thanh toán bằng</p>
+						<p>Thanh toán bằng</p>
+					</div>
+					<div style="margin-top: 20px; font-size: 17px;">
+						<p>Thanh toán bằng</p>
+						<p>Thanh toán bằng</p>
+					</div>
+					<p>Bằng việc xác nhận thanh toán tôi đã đồng ý với điều khoản</p>
+					<div class="tieptuc" style="width: 90%;height: 60px;">
+						<button type="submit" style="width: 100px;height: 40px;float: right;margin-top: 10px;">Thanh toán</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-1">
+			</div>
+			<div class="col-xl-5">
+				<p style="font-size: 17px; font-weight: bold;">Thông tin đơn đặt phòng</p>
+				<div style="border: 1px solid grey;">
+					<div style="width: 100%;text-align: center;">
+						<img src="img\ct2.png" style="width: 80%;height: 150px;padding-top: 10px;">
+					</div>
+					<div style="padding-left: 20px; font-size: 17px;">
+					<p>Khách sạn Mandala Bắc Ninh</p>
+						<img src="img\sao.png">
+						<img src="img\sao.png">
+						<img src="img\sao.png">
+						<img src="img\sao.png">
+						<img src="img\sao.png">
+						<p>Đường Kinh Dương Vương, Thành phố Bắc Ninh, Việt Nam</p>
+						<span>1x DELUXE ROOM</span>
+						<table style="width:100%;margin-bottom: 30px;">
+							<tr>
+								<td>Ngày nhận phòng</td>
+								<td>dd/mm/yyyy</td>
+							</tr>
+							<tr>
+								<td>Ngày trả phòng</td>
+								<td>dd/mm/yyyy</td>
+							</tr>
+							<tr>
+								<td>Giá:</td>
+								<td>000.000Đ</td>
+							</tr>
+							<tr>
+								<td>Giảm giá(nếu có):</td>
+								<td>000.000Đ</td>
+							</tr>
+							<tr>
+								<td>Tổng:</td>
+								<td>000.000Đ</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

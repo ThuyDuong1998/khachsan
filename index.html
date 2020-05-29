@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>khachsan</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!--head-->
+	<div class="head">
+	    <div class="logo">
+	      <img src="img\logo.png">
+	    </div>
+	    <div class="text">
+	      <div class="tv">
+	        <img src="img\tv.png">
+	        <p>Tiếng Việt</p>
+	      </div>
+	      <div class="login">
+	        <p>Đăng ký / Đăng Nhập</p>
+	      </div>
+	    </div>
+  	</div>
+	<!--menu-->
+	<div class="menu">
+		<div class="topnav" id="myTopnav">
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+			<a href="lienhe.html">Liên hệ</a>
+			<a href="khuyenmai.html">Khuyến mại</a>
+	  		<a href="blog.html">Tin tức</a>
+	  		<a href="gioithieu.html">Giới thiệu</a>
+	  		<a href="#">Trang chủ</a>	
+		</div>
+
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+			    x.className += " responsive";
+			  } else {
+			    x.className = "topnav";
+			  }
+			}
+		</script>
+	</div>
+	<!--Chuoi khach san lon nhat VN-->
+	<div class="fluid" style="background-color: #D5FEFF;">
+	    <div class="container">
+	      	<div class="row" style="margin-left: 0px; margin-right: 0px;">
+		        <p style="text-align: center;font-size: 40px;font-family: Arial;padding-top: 20px;width: 100%;">Chuỗi khách sạn lớn nhất Việt Nam</p>
+		        <div class="col-xl-4 timkiem">
+		            <p>Tìm khách sạn thành phố...<img src="img\timkiem.png" style="width: 30px;"></p>
+		        </div>
+		        <div class="col-xl-4 timkiem">
+		          	<div class="lich">
+		            	<img src="img\lich.png" style="width: 30px;">
+		            	<p>Nhận phòng - Trả phòng</p>
+		          	</div>
+		        </div>
+		        <div class="col-xl-3 timkiem">
+		          	<div class="lich">
+		            	<img src="img\icon3.png" style="width: 30px;">
+		            	<p>1 phòng - 1 khách</p>
+		          	</div>
+		        </div>
+		        <div class="col-xl-1 search" style="padding-left: 0px;padding-right: 0px;">
+		          	<button style="width: 100%;height: 68px;background-color: #1FA2C4;">Tìm kiếm</button>
+		        </div>
+	        </div>
+	      </div>
+	    </div>
+  	
+	<!--icon-->
+	<div class="fluid">
+		<div class="row form2" style="margin-left: 0px;margin-right: 0px;">
+			<div class="col-xl-2 col-md-6 text1">
+				<span>Mandala <br>tiêu chuẩn<br> Mandala</span>
+			</div>
+			<div class="col-xl-2 col-md-6 dieuhoa">
+				<img src="img\dieuhoa.png">
+				<p>Phòng điều hòa</p>
+			</div>
+			<div class="col-xl-2 col-md-6 giuong">
+				<img src="img\giuong.png">
+				<p>Giường tinh tươm</p>
+			</div>
+			<div class="col-xl-2 col-md-6 wifi">
+				<img src="img\wifi.png">
+				<p>Wifi</p>
+			</div>
+			<div class="col-xl-2 col-md-6 tam">
+				<img src="img\tam.png">
+				<p>Phòng tắm</p>
+			</div>
+			<div class="col-xl-2 col-md-6 tivi">
+				<img src="img\tivi.png">
+				<p>Tivi</p>
+			</div>
+		</div>
+	</div>
+	<!--banner-->
+	<!--
+	<div class="fluid">
+		<div class="row" style="margin-left: 0px;margin-right: 0px;">
+			<div class="col-4 banner" style="padding: 0px 0px 0px 0px">
+				<img src="img\banner.png">
+			</div>
+			<div class="col-4 datphong">
+				<i>Đặt phòng tại Mandala</i><br>
+				<span>40% off</span>
+			</div>
+			<div class="col-4 datphong">
+				<i>Sử dụng code Mandala</i><br>
+				<button>Đặt ngay</button>
+			</div>
+		</div>
+	</div>-->
+	<div class="banner">
+		<img src="img\banner1.jpg">
+	</div>
+
+	<!--slide-->
+	<div class="fluid">
+  		<div class="khuyenmai">
+  			Khuyến mại
+  		</div> 
+	  	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	    <!-- Indicators -->
+		    <ol class="carousel-indicators">
+			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+			    <li data-target="#myCarousel" data-slide-to="2"></li>
+		    </ol>
+
+	    <!-- Wrapper for slides -->
+	    <div class="carousel-inner">
+	    	<div class="item active">
+	        	<img src="img\slide1.jpg" alt="Los Angeles" style="width:90%; padding-left: 10%;">
+	    	</div>
+
+	        <div class="item">
+	        	<img src="img\slide2.jpg" alt="Chicago" style="width:90%; padding-left: 10%;">
+	        </div>
+	    
+	        <div class="item">
+	        	<img src="img\slide3.jpg" alt="New york" style="width:90%; padding-left: 10%;">
+	        </div>
+	    </div>
+
+    <!-- Left and right controls -->
+		    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		      	<span class="glyphicon glyphicon-chevron-left"></span>
+		      	<span class="sr-only">Previous</span>
+		    </a>
+		    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		      	<span class="glyphicon glyphicon-chevron-right"></span>
+		      	<span class="sr-only">Next</span>
+		    </a>
+  		</div>
+	</div>
+	<!--Combo giờ vàng-->
+	<div class="container tittle">
+		Combo | Deal giờ vàng
+		<hr>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-4 combo">
+				<img src="img\combo3.jpg">
+				<p>Combo1</p>
+				<span>Giảm giá còn 000.000Đ</span><br>
+				<button>Đặt phòng</button>
+			</div>
+			<div class="col-xl-4 combo">
+				<img src="img\combo2.jpg">
+				<p>Combo2</p>
+				<span>Giảm giá còn 000.000Đ</span><br>
+				<button>Đặt phòng</button>
+			</div>
+			<div class="col-xl-4 combo">
+				<img src="img\combo3.jpg">
+				<p>Combo3</p>
+				<span>Giảm giá còn 000.000Đ</span><br>
+				<button>Đặt phòng</button>
+			</div>
+		</div>
+	</div>
+	<!--tin tuc-->
+	<div class="khuyenmai">
+  			Tin tức
+  		</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-6 tintuc">
+				<p>Tin tức 1</p>
+				<img src="img\tintuc1.jpg" style="width: 45%;float: left;">
+				<div class="tintuc1" style="padding-right: 30px;">
+					<span style="font-size: 17px;padding-left: 30px;">+.................</span><br>
+					<span style="font-size: 17px;padding-left: 30px;">+.................</span><br>
+					<span style="font-size: 17px;padding-left: 30px;">+.................</span><br>
+				</div>
+				<button>Xem thêm</button>
+			</div>
+			<div class="col-xl-6 tintuc">
+				<p>Tin tức 2</p>
+				<img src="img\tintuc1.jpg" style="width: 50%;float: left;padding-left: 30px;">
+				<div class="tintuc1" style="padding-right: 30px;">
+					<span style="font-size: 17px;padding-left: 30px;">+.................</span><br>
+					<span style="font-size: 17px;padding-left: 30px;">+.................</span><br>
+					<span style="font-size: 17px;padding-left: 30px;">+.................</span><br>
+				</div>
+				<button>Xem thêm</button>
+			</div>
+		</div>	
+	</div>
+	<!--dia diem noi tieng-->
+	<div class="container tittle">
+		Combo | Deal giờ vàng
+		<hr>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="anh">
+				<div class="col-xl-3 col-md-6 anh1">
+					<img src="img\combo1.jpg">
+					<p>Thanh Hóa</p>
+				</div>
+				<div class="col-xl-3 col-md-6 anh1">
+					<img src="img\anh2.jpg">
+					<p>Mũi Né</p>
+				</div>
+				<div class="col-xl-3 col-md-6 anh1">
+					<img src="img\anh3.jpg" style="height: 200px;">
+					<p>Đà Nẵng</p>
+				</div>
+				<div class="col-xl-3 col-md-6 anh1">
+					<img src="img\anh2.jpg">
+					<p>Bình Thuận</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="anh">
+				<div class="col-xl-3 col-md-6 anh1">
+					<img src="img\combo1.jpg">
+					<p>Phú Yên</p>
+				</div>
+				<div class="col-xl-3 col-md-6 anh1">
+					<img src="img\anh2.jpg">
+					<p>Ninh Thuận</p>
+				</div>
+				<div class="col-xl-3 col-md-6 anh1">
+					<img src="img\anh3.jpg" style="height: 200px;">
+					<p>Bắc Ninh</p>
+				</div>
+				<div class="col-xl-3 col-md-6 anh1">
+					<img src="img\anh2.jpg">
+					<p>Cần Thơ</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr style="border-top: 1px solid black; width: 100%; ">
+	<!--footer-->
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-4">
+				<div class="footer1">
+					<img src="img\logo.png">
+					<p>Mandala</p>
+				</div><br>
+				<div class="footer2">
+					<img src="img\nha.png"><br>
+					<span>Tầng 3 Grand Plaza,117 Trần Duy Hưng, <br>Trung Hòa, Cầu giấy, Hà Nội</span>
+					<img src="img\phone.png">
+					<span>(884)3577.1983</span>
+					<img src="img\email.png">
+					<span>mandala@gmail.com</span>
+				</div>
+			</div>
+			<div class="col-xl-4">
+				<p style="font-size: 20px;font-weight: bold;">Quy định chung dành cho Website</p>
+				<div class="quydinh">
+					<p>- Chính sách về quy định chung</p>
+					<p>- Quy định về thanh toán</p>
+					<p>- Chính sách về hủy đặt phòng</p>
+					<p>- Chính sách về bảo mật thông tin</p>
+				</div>
+			</div>
+			<div class="col-xl-4">
+				<p style="font-size: 20px;font-weight: bold;">Kết nối với chúng tôi</p>
+				<div class="quydinh">
+					<img src="img\fb.png">
+					<img src="img\ins.png">
+					<img src="img\youtube.png">
+					<img src="img\twitter.png">
+					<img src="img\google.png">
+				</div>
+				<div class="map">
+					<p style="font-size: 20px;font-weight: bold; float: left;margin-top: 30px;">Đến với chúng tôi</p>
+					<img src="img\map.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="cuoi">
+		<p>Copyright @2020 & Mandala</p>
+	</div>
+</body>
+</html>

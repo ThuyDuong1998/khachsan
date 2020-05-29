@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phương thức thanh toán</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="head">
+	    <div class="logo">
+	      <img src="img\logo.png">
+	    </div>
+	    <div class="text">
+	      <div class="tv">
+	        <img src="img\tv.png">
+	        <p>Tiếng Việt</p>
+	      </div>
+	      <div class="login">
+	        <p>Đăng ký / Đăng Nhập</p>
+	      </div>
+	    </div>
+  	</div>
+	<!--menu-->
+	<div class="menu">
+		<div class="topnav" id="myTopnav">
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+			<a href="#">Liên hệ</a>
+			<a href="#">Khuyến mại</a>
+	  		<a href="#">Tin tức</a>
+	  		<a href="#">Giới thiệu</a>
+	  		<a href="#">Trang chủ</a>	
+		</div>
+
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+			    x.className += " responsive";
+			  } else {
+			    x.className = "topnav";
+			  }
+			}
+		</script>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-6">
+				<p style="font-size: 17px; font-weight: bold;">Thông tin đặt phòng</p>
+				<div style="border: 1px solid grey;width: 100%; padding-left: 20px;padding-top: 15px; height: 300px;">
+					
+				</div>
+			</div>
+			<div class="col-xl-1">
+			</div>
+			<div class="col-xl-5">
+				<p style="font-size: 17px; font-weight: bold;">Thông tin đơn đặt phòng</p>
+				<div style="border: 1px solid grey;padding-left: 15px;font-size: 17px;padding-top: 20px;">
+					<p>Số tiền thanh toán:000.000Đ</p>
+					<p>Mã đơn hàng:0123456789</p>
+					<p>Nội dung: .............................</p>
+					<div style="display: flex;justify-content: space-around;align-items: center;margin-bottom: 20px;margin-top: 20px;">
+						<button style="width: 120px; height: 40px;">Thanh toán</button>
+						<button style="width: 100px; height: 40px;">Hủy đơn</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
