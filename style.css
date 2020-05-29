@@ -79,6 +79,10 @@ button{
 	padding: 0px 0px 0px 0px;
 	background-color: #1fa2c4;
 }
+.menu a:hover{
+	text-decoration: none;
+	color: white;
+}
 .logo img{
 	float: left;
 	width: 50%;
