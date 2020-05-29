@@ -1,4 +1,4 @@
-.col-1{width: 8.33%}
+col-1{width: 8.33%}
 .col-2{width: 16.66%}
 .col-3{width: 25%}
 .col-4{width: 33.33%}
@@ -113,35 +113,46 @@ button{
 	margin-right: 30px;
 }
 .timkiem{
-	border: 1px solid black;
-	display: flex;
-	width: 100%;
-	justify-content: space-around;
-	align-items: center;
-	margin-bottom: 20px;
-	height: 68px;
-	margin-top: 10px;
-	background-color: white;
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 68px;
+    margin-top: 10px;
+    background-color: white;
+    padding: 0px 0px 0px 0px;
 }
-.timkiem p{
-	padding-top: 10px;
+.timkiem input{
+    width: 100%;
+    height: 100%;
+    background-image: url("img/timkiem.png");
+    border: 0px;
+    font-size: 17px;
 }
 .timkiem img{
-	padding-top: 10px;
+    padding-top: 10px;
+}
+.lich input{
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
 }
 .lich img{
-	float:left;
+    float:left;
 }
-.lich p{
-	float: left;
-	padding-left: 10px;
+.lich select{
+    height: 40px;
+    margin-left: 10px;
+    border: 0px;
 }
 .search {
-	width: 100%;
+    width: 100%;
 }
 .search button{
-	border-width: 0px;
-	margin-bottom: 50px;
+    border-width: 0px;
+    margin-bottom: 50px;
 }
 /*icon*/
 .form2{
@@ -251,7 +262,7 @@ button{
 .khuyenmai{
 	text-align: center;
 	font-weight: bold;
-	font-family: Tahoma;
+	
 	font-size: 30px;
 	text-transform: uppercase;
 	margin-top: 5px;
@@ -261,7 +272,7 @@ button{
 .tittle{
 	font-size: 30px;
 	font-weight: bold;
-	font-family: Tahoma;
+	
 }
 .tittle hr{
 	border: 1px solid grey;
@@ -276,10 +287,13 @@ button{
 	width: 100%;
 	padding: 0px 0px 0px 0px;
 }
-.combo p{
+.combo a{
 	font-size: 25px;
 	font-weight: bold;
-	font-family: Tahoma;
+	color: black;
+}
+.combo a:hover{
+	text-decoration: none;
 }
 .combo span{
 	font-size: 20px;
@@ -291,12 +305,18 @@ button{
 	background-color: #1fa2c4;
 	border-radius: 30px;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 20px;
 }
 .tintuc p{
 	font-size: 20px;
 	font-weight: bold;
 	text-align: center;
+}
+.tintuc a{
+	color: black;
+}
+.tintuc a:hover{
+	text-decoration: none;
 }
 .tintuc button{
 	width: 140px;
@@ -309,15 +329,24 @@ button{
 	float: right;
 	clear: both;
 }
+.anh1 {
+	text-align: center;
+}
 .anh1 img{
 	width: 100%;
 }
 .anh1 p{
+	background-color: #d5feff;
+}
+.anh1 a{
 	font-size: 20px;
 	font-weight: bold;
-	text-align: center;
-	background-color: #d5feff;
+	color: black;
 	margin-bottom: 40px;
+	width: 100%;
+}
+.anh1 a:hover{
+	text-decoration: none;
 }
 .footer1 img{
 	width: 30%;
@@ -370,6 +399,12 @@ button{
 	font-size: 20px;
 	font-weight: bold;
 	text-align: center;
+}
+.daunam a{
+	color: black;
+}
+.daunam a:hover{
+	text-decoration: none;
 }
 .daunam img{
 	width: 150px;
